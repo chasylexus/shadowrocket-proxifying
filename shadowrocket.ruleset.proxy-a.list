@@ -1,0 +1,32 @@
+# Shadowrocket Proxifying RULE-SET: PROXY_A domains
+# Public resource. Keep credentials and endpoint details out of this file.
+
+# Manual diagnostics and A-only streaming services.
+DOMAIN,api.fast.com
+DOMAIN,www.netflix.com
+DOMAIN-SUFFIX,astrill.com
+DOMAIN-SUFFIX,fast.com
+
+# Netflix / Peacock / Hulu / Disney+ / HBO Max / ESPN / Prime Video.
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,nflxext.net
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,peacocktv.com
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,espn.com
+DOMAIN-SUFFIX,espncdn.com
+DOMAIN-SUFFIX,espnqa.com
+
+# A-exit diagnostics.
+DOMAIN-SUFFIX,whatismyip.com

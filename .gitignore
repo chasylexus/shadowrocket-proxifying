@@ -1,0 +1,12 @@
+# Local/private Shadowrocket files.
+*.local.conf
+*.private.conf
+*.secret.conf
+*.mobileconfig
+backups/
+secrets/
+
+# OS/editor noise.
+.DS_Store
+*.swp
+*.tmp
