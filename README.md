@@ -24,7 +24,7 @@ When Shadowrocket TrustTunnel support is available, attach your TT servers to th
 
 Apple TV+ is intentionally not routed through `PROXY_A`.
 
-`wimi-api-v6.whatismyip.com` is rejected early because it is an IPv6-only probe, while the current TT/SOCKS A path is expected to be IPv4-only. The normal `wimi-api.whatismyip.com` and `www.whatismyip.com` remain under `PROXY_A`.
+`whatismyip.com` is pinned before the broad DIRECT baseline, including its IPv6 probe domains when the current network supports IPv6.
 
 ## Files
 
