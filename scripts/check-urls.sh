@@ -25,7 +25,7 @@ do
 done
 
 for name in \
-    Netflix Hulu Disney HBO PrimeVideo Advertising Gemini YouTube Spotify \
+    Netflix Hulu Disney HBO PrimeVideo Advertising Gemini YouTube Spotify LastFM \
     Facebook Instagram Twitter Telegram TelegramNL TelegramSG TelegramUS \
     TikTok Discord LinkedIn Microsoft Google Wikipedia Amazon
 do

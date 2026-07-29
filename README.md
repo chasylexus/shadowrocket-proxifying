@@ -17,7 +17,7 @@ When Shadowrocket TrustTunnel support is available, attach your TT servers to th
 
 ## Business Logic
 
-- `PROXY_T`: Google AI / Gemini / NotebookLM plus the broad T proxy list.
+- `PROXY_T`: Google AI / Gemini / NotebookLM, Last.fm, plus the broad T proxy list.
 - `PROXY_A`: manual A diagnostics, `whatismyip.com`, Netflix, Hulu, Disney+, HBO/Max, ESPN, Prime Video, Peacock, and related streaming domains.
 - `DIRECT`: captive portals, LAN/local ranges, Apple/iCloud baseline, and final fallback.
 - `REJECT`: ad/malware-style public reject lists.
