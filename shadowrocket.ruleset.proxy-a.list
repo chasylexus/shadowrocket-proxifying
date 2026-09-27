@@ -28,6 +28,17 @@ DOMAIN-SUFFIX,espn.com
 DOMAIN-SUFFIX,espncdn.com
 DOMAIN-SUFFIX,espnqa.com
 
+# Paramount+ (blackmatrix7/ios_rule_script: ParamountPlus).
+DOMAIN,cbsi.live.ott.irdeto.com
+DOMAIN,cbsplaylistserver.aws.syncbak.com
+DOMAIN,cbsservice.aws.syncbak.com
+DOMAIN,link.theplatform.com
+DOMAIN-SUFFIX,cbsaavideo.com
+DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,cbsivideo.com
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN-SUFFIX,pplusstatic.com
+
 # A-exit diagnostics.
 DOMAIN-SUFFIX,2ip.ru
 DOMAIN-SUFFIX,whatismyip.com
