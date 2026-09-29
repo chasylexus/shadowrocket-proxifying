@@ -8,3 +8,7 @@ DOMAIN-SUFFIX,microsoft.ru
 DOMAIN-SUFFIX,mywishlist.ru
 DOMAIN-SUFFIX,sci-hub.ru
 DOMAIN-SUFFIX,youtube.ru
+
+# Preserve AWS subtrees before the broader Amazon consumer A suffixes.
+DOMAIN-SUFFIX,aws.amazon.com
+DOMAIN-SUFFIX,aws.a2z.com

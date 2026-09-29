@@ -64,3 +64,21 @@ sh scripts/check-urls.sh
 ```
 
 The script checks the public remote rule resources and reports HTTP status codes only.
+
+## Amazon and streaming coverage (2026-09-30)
+
+Amazon consumer domains use A, including regional stores. The snapshot comes
+from [SagerNet Amazon](https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-amazon.srs)
+minus [AWS](https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-aws.srs).
+The generic AWS/CloudFront routing is preserved. AWS subtrees under amazon.com
+and a2z.com have priority T exceptions; amazon.com.tr has an early A exception
+before the broad com.tr rule. Existing local wrappers need that narrow profile
+update as well as refreshed A and priority-T resources.
+
+Narrow CDN additions come from blackmatrix7
+[Amazon](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Amazon/Amazon.list),
+[Prime Video](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrimeVideo/PrimeVideo.list),
+[Hulu](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hulu/Hulu.list) and
+[Paramount+](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ParamountPlus/ParamountPlus.list).
+Existing upstream streaming lists remain connected. Route coverage does not
+by itself verify playback or regional catalogue availability.
